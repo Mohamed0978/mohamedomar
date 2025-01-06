@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talia's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    #about img {
+      max-width: 150px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .project {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Talia - Agriculture Engineer</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="talia-photo.jpg" alt="Talia">
+    <p>Hello! I'm Talia, an Agriculture Engineer specializing in Pesticide Chemistry. With a deep passion for sustainable farming and chemical safety, I aim to innovate and optimize pesticide solutions for better crop yields and environmental health.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="project">
+      <h3>Project: Eco-Friendly Pesticides</h3>
+      <p>Developed organic and biodegradable pesticide solutions to reduce environmental impact. <a href="project-link.html">Learn More</a></p>
+    </div>
+    <div class="project">
+      <h3>Project: Precision Agriculture Tools</h3>
+      <p>Implemented chemical sensors for optimized pesticide application in crop fields. <a href="project-link.html">Learn More</a></p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Pesticide Chemistry</li>
+      <li>Sustainable Farming Techniques</li>
+      <li>Crop Protection Strategies</li>
+      <li>Data Analysis for Agriculture</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><a href="talia-resume.pdf" download>Download My Resume</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Talia. All rights reserved. Designed with care for agriculture and sustainability.</p>
+  </footer>
+</body>
+</html>
